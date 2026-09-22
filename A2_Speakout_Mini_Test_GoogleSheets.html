@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A2 Mini Test | Speakout 2nd Edition</title>
+<style>
+:root{--ink:#202735;--muted:#687386;--line:#e5e9f0;--bg:#f4f7fb;--card:#fff;--accent:#4f7cff;--good:#16834b;--bad:#c53939}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Arial,sans-serif}.wrap{max-width:900px;margin:auto;padding:24px 16px 60px}.hero,.card,#result{background:var(--card);border-radius:18px;box-shadow:0 5px 20px #0000000d}.hero{padding:28px;margin-bottom:18px}.hero h1{margin:0 0 5px;font-size:30px}.hero p{margin:4px 0;color:var(--muted)}.student{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.student input{flex:1;min-width:220px}.progress{margin-top:18px;height:9px;background:#e9edf4;border-radius:9px;overflow:hidden}.bar{height:100%;width:0;background:var(--accent);transition:.25s}.card{padding:25px;margin:18px 0}.card h2{margin:0 0 5px}.marks{color:var(--muted);font-size:14px}.q{border-top:1px solid var(--line);padding:18px 0}.q:first-of-type{border-top:0}.q p{margin:0 0 9px;font-weight:700}.opt{display:block;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:7px 0;cursor:pointer}.opt:hover{background:#f8faff}.opt input{margin-right:8px}.blank{border:0;border-bottom:2px solid #9aa4b5;outline:0;width:180px;padding:4px;font-size:16px;background:transparent}.vblank{width:220px}.func-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.func-grid .item{border:1px solid var(--line);padding:10px;border-radius:10px}.func-grid select{width:100%;padding:9px;border:1px solid #ccd3df;border-radius:8px;background:white}.reading{background:#fafbfe;border:1px solid var(--line);padding:18px;border-radius:12px;margin-bottom:15px}.reading h3{margin-top:0}.btn{display:block;width:100%;padding:15px;border:0;border-radius:12px;background:var(--accent);color:white;font-size:17px;font-weight:700;cursor:pointer}.btn:hover{opacity:.92}.error{color:var(--bad);font-weight:700}.result{text-align:center}.score{font-size:54px;font-weight:800}.review{text-align:left;margin-top:20px}.review div{padding:9px;border-bottom:1px solid var(--line)}.good{color:var(--good)}.bad{color:var(--bad)}.hide{display:none}.passage{font-size:15px}.order select{width:100%;padding:10px;border:1px solid #ccd3df;border-radius:8px;margin:4px 0}@media(max-width:650px){.func-grid{grid-template-columns:1fr}.hero h1{font-size:25px}}
+</style></head>
+<body><div class="wrap">
+<section class="hero"><h1>A2 English Mini Test</h1><p>Speakout 2nd Edition Pre-Intermediate • Units 1, 2, 3, 5, 6 &amp; 7</p><p><b>50 marks</b> • Grammar 15 • Vocabulary 15 • Functions 5 • Reading 10 • Sentence Ordering 5</p>
+<div class="student"><input id="student" placeholder="Student name" autocomplete="name"></div><div class="progress"><div class="bar" id="bar"></div></div><p id="prog">0% answered</p></section>
+<form id="test">
+<section class="card"><h2>Part 1 — Grammar</h2><div class="marks">15 marks • 1 mark each</div>
+<div class="q"><p>1. I usually _____ to work by bus.</p><label class="opt"><input type="radio" name="q1" value="a"> go</label><label class="opt"><input type="radio" name="q1" value="b"> am going</label><label class="opt"><input type="radio" name="q1" value="c"> went</label></div>
+<div class="q"><p>2. We _____ dinner at home last night.</p><label class="opt"><input type="radio" name="q2" value="a"> have</label><label class="opt"><input type="radio" name="q2" value="b"> had</label><label class="opt"><input type="radio" name="q2" value="c"> are having</label></div>
+<div class="q"><p>3. _____ you see Tom yesterday?</p><label class="opt"><input type="radio" name="q3" value="a"> Did</label><label class="opt"><input type="radio" name="q3" value="b"> Do</label><label class="opt"><input type="radio" name="q3" value="c"> Were</label></div>
+<div class="q"><p>4. She is going to the gym _____ get fitter.</p><label class="opt"><input type="radio" name="q4" value="a"> because</label><label class="opt"><input type="radio" name="q4" value="b"> so</label><label class="opt"><input type="radio" name="q4" value="c"> to</label></div>
+<div class="q"><p>5. I took an umbrella _____ it was raining.</p><label class="opt"><input type="radio" name="q5" value="a"> because</label><label class="opt"><input type="radio" name="q5" value="b"> to</label><label class="opt"><input type="radio" name="q5" value="c"> so</label></div>
+<div class="q"><p>6. It was very cold, _____ we stayed inside.</p><label class="opt"><input type="radio" name="q6" value="a"> because</label><label class="opt"><input type="radio" name="q6" value="b"> so</label><label class="opt"><input type="radio" name="q6" value="c"> to</label></div>
+<div class="q"><p>7. Look at those dark clouds. It _____ rain.</p><label class="opt"><input type="radio" name="q7" value="a"> is going to</label><label class="opt"><input type="radio" name="q7" value="b"> is</label><label class="opt"><input type="radio" name="q7" value="c"> goes to</label></div>
+<div class="q"><p>8. We _____ our friends at 7 p.m. tonight.</p><label class="opt"><input type="radio" name="q8" value="a"> meet</label><label class="opt"><input type="radio" name="q8" value="b"> are meeting</label><label class="opt"><input type="radio" name="q8" value="c"> met</label></div>
+<div class="q"><p>9. You _____ wear a helmet on a motorcycle.</p><label class="opt"><input type="radio" name="q9" value="a"> have to</label><label class="opt"><input type="radio" name="q9" value="b"> can to</label><label class="opt"><input type="radio" name="q9" value="c"> have</label></div>
+<div class="q"><p>10. You _____ smoke in this room. It is not allowed.</p><label class="opt"><input type="radio" name="q10" value="a"> don't have to</label><label class="opt"><input type="radio" name="q10" value="b"> mustn't</label><label class="opt"><input type="radio" name="q10" value="c"> can</label></div>
+<div class="q"><p>11. My brother enjoys _____ football at weekends.</p><label class="opt"><input type="radio" name="q11" value="a"> play</label><label class="opt"><input type="radio" name="q11" value="b"> playing</label><label class="opt"><input type="radio" name="q11" value="c"> to playing</label></div>
+<div class="q"><p>12. I decided _____ a new language.</p><label class="opt"><input type="radio" name="q12" value="a"> learn</label><label class="opt"><input type="radio" name="q12" value="b"> learning</label><label class="opt"><input type="radio" name="q12" value="c"> to learn</label></div>
+<div class="q"><p>13. _____ did you go on holiday last year?</p><label class="opt"><input type="radio" name="q13" value="a"> Where</label><label class="opt"><input type="radio" name="q13" value="b"> Who</label><label class="opt"><input type="radio" name="q13" value="c"> Whose</label></div>
+<div class="q"><p>14. _____ called you this morning?</p><label class="opt"><input type="radio" name="q14" value="a"> Who did</label><label class="opt"><input type="radio" name="q14" value="b"> Who</label><label class="opt"><input type="radio" name="q14" value="c"> What did</label></div>
+<div class="q"><p>15. I don't know _____ bag this is.</p><label class="opt"><input type="radio" name="q15" value="a"> who</label><label class="opt"><input type="radio" name="q15" value="b"> whose</label><label class="opt"><input type="radio" name="q15" value="c"> which</label></div>
+</section>
+
+<section class="card"><h2>Part 2 — Vocabulary</h2><div class="marks">15 marks • Complete each sentence with the correct word. There is no word bank.</div>
+<div class="q"><p>16. A _____ delivers letters and parcels to people's homes.</p><input class="blank vblank" name="q16"></div>
+<div class="q"><p>17. A _____ reports news from another country.</p><input class="blank vblank" name="q17"></div>
+<div class="q"><p>18. A _____ rides and races horses professionally.</p><input class="blank vblank" name="q18"></div>
+<div class="q"><p>19. The hotel _____ helped us carry our bags to the room.</p><input class="blank vblank" name="q19"></div>
+<div class="q"><p>20. We walked along the _____ and watched the boats.</p><input class="blank vblank" name="q20"></div>
+<div class="q"><p>21. If you want to send a letter, you can go to the _____.</p><input class="blank vblank" name="q21"></div>
+<div class="q"><p>22. The opposite of “cheap” is _____.</p><input class="blank vblank" name="q22"></div>
+<div class="q"><p>23. A person who looks after customers in a shop is a _____.</p><input class="blank vblank" name="q23"></div>
+<div class="q"><p>24. I need to make a _____ at the restaurant for eight people.</p><input class="blank vblank" name="q24"></div>
+<div class="q"><p>25. You can catch a train at the _____.</p><input class="blank vblank" name="q25"></div>
+<div class="q"><p>26. Someone who flies an aeroplane is a _____.</p><input class="blank vblank" name="q26"></div>
+<div class="q"><p>27. A _____ is a place where you can buy medicine.</p><input class="blank vblank" name="q27"></div>
+<div class="q"><p>28. If a room is very large, it is _____.</p><input class="blank vblank" name="q28"></div>
+<div class="q"><p>29. A person who cooks food professionally is a _____.</p><input class="blank vblank" name="q29"></div>
+<div class="q"><p>30. You can leave your car in a _____.</p><input class="blank vblank" name="q30"></div>
+</section>
+
+<section class="card"><h2>Part 3 — Functions</h2><div class="marks">5 marks • Choose the best response.</div>
+<div class="q"><p>31. “Would you like to come with us?”</p><label class="opt"><input type="radio" name="q31" value="a"> Yes, I'd love to.</label><label class="opt"><input type="radio" name="q31" value="b"> Yes, I like.</label><label class="opt"><input type="radio" name="q31" value="c"> Yes, I come.</label></div>
+<div class="q"><p>32. “I'm sorry I'm late.”</p><label class="opt"><input type="radio" name="q32" value="a"> Never mind.</label><label class="opt"><input type="radio" name="q32" value="b"> That's late.</label><label class="opt"><input type="radio" name="q32" value="c"> You are sorry.</label></div>
+<div class="q"><p>33. “Could you help me with this bag?”</p><label class="opt"><input type="radio" name="q33" value="a"> Sure, no problem.</label><label class="opt"><input type="radio" name="q33" value="b"> Yes, I could.</label><label class="opt"><input type="radio" name="q33" value="c"> I help yesterday.</label></div>
+<div class="q"><p>34. “What do you think of the film?”</p><label class="opt"><input type="radio" name="q34" value="a"> I think it was great.</label><label class="opt"><input type="radio" name="q34" value="b"> I watched at eight.</label><label class="opt"><input type="radio" name="q34" value="c"> Yes, I film.</label></div>
+<div class="q"><p>35. “Why don't we meet at six?”</p><label class="opt"><input type="radio" name="q35" value="a"> Good idea.</label><label class="opt"><input type="radio" name="q35" value="b"> I met him.</label><label class="opt"><input type="radio" name="q35" value="c"> Because six.</label></div>
+</section>
+
+<section class="card"><h2>Part 4 — Reading</h2><div class="marks">10 marks • Read the text and answer the questions.</div>
+<div class="reading"><h3>Life in a Busy City</h3><div class="passage">Maya moved to Brighton three years ago because she wanted to study and experience life in a new city. At first, she found the city noisy and confusing, but she soon learned how to get around. She usually travels by bus, although she sometimes cycles when the weather is good. Her favourite place is the waterfront, where she meets friends after class. There are cafés, small shops and a large park there.<br><br>Maya works part-time at a hotel. She starts work at five o'clock in the afternoon and usually finishes at nine. She enjoys talking to visitors from different countries. One of her colleagues is a concierge who often gives tourists advice about places to visit. Maya is saving money because she is going to travel around Europe next summer.<br><br>At weekends, Maya likes exploring different parts of Brighton. She says the best thing about city life is that there is always something to do. However, she sometimes misses her quiet hometown and her family.</div></div>
+<div class="q"><p>36. Why did Maya move to Brighton?</p><label class="opt"><input type="radio" name="q36" value="a"> To study and experience a new city.</label><label class="opt"><input type="radio" name="q36" value="b"> To work as a bus driver.</label><label class="opt"><input type="radio" name="q36" value="c"> To live near her family.</label></div>
+<div class="q"><p>37. How does Maya usually travel?</p><label class="opt"><input type="radio" name="q37" value="a"> By train.</label><label class="opt"><input type="radio" name="q37" value="b"> By bus.</label><label class="opt"><input type="radio" name="q37" value="c"> By taxi.</label></div>
+<div class="q"><p>38. Where does Maya meet her friends?</p><input class="blank" name="q38"></div>
+<div class="q"><p>39. What time does Maya start work?</p><input class="blank" name="q39"></div>
+<div class="q"><p>40. What is Maya saving money for?</p><input class="blank" name="q40"></div>
+<div class="q"><p>41. Maya found Brighton easy and quiet when she first arrived. — True or False?</p><label class="opt"><input type="radio" name="q41" value="a"> True</label><label class="opt"><input type="radio" name="q41" value="b"> False</label></div>
+<div class="q"><p>42. Maya sometimes cycles when the weather is good. — True or False?</p><label class="opt"><input type="radio" name="q42" value="a"> True</label><label class="opt"><input type="radio" name="q42" value="b"> False</label></div>
+<div class="q"><p>43. Maya works full-time at a hotel. — True or False?</p><label class="opt"><input type="radio" name="q43" value="a"> True</label><label class="opt"><input type="radio" name="q43" value="b"> False</label></div>
+<div class="q"><p>44. The concierge gives tourists advice about places to visit. — True or False?</p><label class="opt"><input type="radio" name="q44" value="a"> True</label><label class="opt"><input type="radio" name="q44" value="b"> False</label></div>
+<div class="q"><p>45. Maya never misses her hometown. — True or False?</p><label class="opt"><input type="radio" name="q45" value="a"> True</label><label class="opt"><input type="radio" name="q45" value="b"> False</label></div>
+</section>
+
+<section class="card order"><h2>Part 5 — Sentence Ordering</h2><div class="marks">5 marks • Put the five sentences in the correct order.</div>
+<div class="reading"><h3>A Lucky Day</h3><p>Put these sentences in a logical order to make a short story.</p><p><b>A.</b> Finally, I bought a ticket and waited for the result.</p><p><b>B.</b> On my way home, I stopped at a small shop.</p><p><b>C.</b> When I checked my ticket that evening, I couldn't believe it.</p><p><b>D.</b> I had a very surprising day last Saturday.</p><p><b>E.</b> The ticket had the winning number!</p></div>
+<p>46. First: <select name="q46"><option value="">Choose</option><option>D</option><option>B</option><option>A</option><option>C</option><option>E</option></select></p>
+<p>47. Second: <select name="q47"><option value="">Choose</option><option>D</option><option>B</option><option>A</option><option>C</option><option>E</option></select></p>
+<p>48. Third: <select name="q48"><option value="">Choose</option><option>D</option><option>B</option><option>A</option><option>C</option><option>E</option></select></p>
+<p>49. Fourth: <select name="q49"><option value="">Choose</option><option>D</option><option>B</option><option>A</option><option>C</option><option>E</option></select></p>
+<p>50. Fifth: <select name="q50"><option value="">Choose</option><option>D</option><option>B</option><option>A</option><option>C</option><option>E</option></select></p>
+</section>
+<section class="card"><button class="btn" type="button" onclick="submitTest()">Submit Test</button></section>
+</form>
+<section id="result" class="card result hide"><h2>Test Complete 🎉</h2><div class="score"><span id="score">0</span>/50</div><p id="percent"></p><p id="msg"></p><p id="saveStatus" class="small"></p><div class="review" id="review"></div><button class="btn" type="button" onclick="location.reload()">Try Again</button></section>
+</div>
+<script>
+// Paste your deployed Google Apps Script Web App URL between the quotes below.
+const GOOGLE_SHEET_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const key={q1:'a',q2:'b',q3:'a',q4:'c',q5:'a',q6:'b',q7:'a',q8:'b',q9:'a',q10:'b',q11:'b',q12:'c',q13:'a',q14:'b',q15:'b',q16:'courier',q17:'foreign correspondent',q18:'jockey',q19:'concierge',q20:'waterfront',q21:'post office',q22:'expensive',q23:'shop assistant',q24:'reservation',q25:'station',q26:'pilot',q27:'pharmacy',q28:'spacious',q29:'chef',q30:'car park',q31:'a',q32:'a',q33:'a',q34:'a',q35:'a',q36:'a',q37:'b',q38:'waterfront',q39:'five o\'clock in the afternoon',q40:'travel around Europe',q41:'b',q42:'a',q43:'b',q44:'a',q45:'b',q46:'D',q47:'B',q48:'A',q49:'C',q50:'E'};
+const labels={q16:['courier'],q17:['foreign correspondent'],q18:['jockey'],q19:['concierge'],q20:['waterfront'],q21:['post office','postoffice'],q22:['expensive'],q23:['shop assistant','sales assistant','salesperson'],q24:['reservation','booking'],q25:['station','train station'],q26:['pilot'],q27:['pharmacy','chemist'],q28:['spacious','large'],q29:['chef','cook'],q30:['car park','parking lot'],q38:['waterfront'],q39:['five o’clock in the afternoon','five o\'clock in the afternoon','5 o’clock in the afternoon','5 o\'clock in the afternoon','five'],q40:['travel around europe','travelling around europe','travel around europe next summer']};
+function norm(s){return s.toLowerCase().trim().replace(/[.,!?]/g,'').replace(/\s+/g,' ')}
+function answered(){let n=0;for(let i=1;i<=50;i++){let e=document.querySelector('[name=q'+i+']');if(!e)continue;if(e.type==='radio'){if(document.querySelector('[name=q'+i+']:checked'))n++}else if(e.value&&e.value.trim())n++;}return n}
+function progress(){let a=answered();document.getElementById('bar').style.width=(a/50*100)+'%';document.getElementById('prog').textContent=a+'/50 answered'}
+document.querySelectorAll('input,select').forEach(e=>e.addEventListener('change',progress));
+function get(i){let e=document.querySelector('[name=q'+i+']');if(!e)return '';if(e.type==='radio'){let x=document.querySelector('[name=q'+i+']:checked');return x?x.value:''}return e.value}
+function correct(i){let v=norm(get(i)), k=key['q'+i]; if(labels['q'+i])return labels['q'+i].map(norm).includes(v); return v===norm(k)}
+async function submitTest(){
+  const student=document.getElementById('student').value.trim();
+  if(!student){alert('Please enter the student name.');return}
+  let missing=[];
+  for(let i=1;i<=50;i++) if(!get(i)) missing.push(i);
+  if(missing.length){alert('Please answer all questions. Unanswered: '+missing.join(', '));return}
+
+  let score=0;
+  for(let i=1;i<=50;i++) if(correct(i)) score++;
+  const percent=score*2;
+  const answers={};
+  for(let i=1;i<=50;i++) answers['Q'+i]=get(i);
+
+  const payload={
+    studentName: student,
+    score: score,
+    total: 50,
+    percentage: percent,
+    submittedAt: new Date().toISOString(),
+    answers: JSON.stringify(answers)
+  };
+
+  const saveStatus=document.getElementById('saveStatus');
+  saveStatus.textContent='Saving your result…';
+  saveStatus.className='small';
+
+  if(GOOGLE_SHEET_URL.includes('PASTE_YOUR_')){
+    saveStatus.textContent='Demo mode: Google Sheets is not connected yet.';
+  } else {
+    try{
+      const body=new URLSearchParams(payload).toString();
+      await fetch(GOOGLE_SHEET_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body});
+      saveStatus.textContent='✓ Your result has been submitted.';
+      saveStatus.className='good';
+    }catch(err){
+      saveStatus.textContent='Your score is shown below, but the result could not be sent to Google Sheets.';
+      saveStatus.className='bad';
+    }
+  }
+
+  document.getElementById('test').classList.add('hide');
+  document.getElementById('result').classList.remove('hide');
+  document.getElementById('score').textContent=score;
+  document.getElementById('percent').textContent=percent+'%';
+  document.getElementById('msg').textContent=score>=40?'Excellent work! 🌟':score>=30?'Good job! Keep practising. 👍':score>=25?'Nice effort! Review the weaker areas and try again.':'Keep practising — you can improve with more practice! 💪';
+  document.getElementById('review').innerHTML='<p><b>Submission received.</b> Your teacher can view your score in the class results sheet.</p>';
+  window.scrollTo({top:0,behavior:'smooth'});
+}</script></body></html>
